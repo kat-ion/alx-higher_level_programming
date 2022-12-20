@@ -11,5 +11,7 @@ class Square():
     def __init__(self, size):
         """Set the necessary attributes for the Square object.
         
+        Args:
+            size (int): The size of the new square.
         """
         self.__size = size
